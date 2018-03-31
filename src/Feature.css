@@ -1,0 +1,153 @@
+#features > nav {
+  padding-top: 35px;
+  background-color: #141414;
+  border-bottom: 2px solid #3d3d3d;
+}
+
+#features > nav a {
+  text-decoration: none;
+  text-align: center;
+  vertical-align: top;
+  font-weight: bold;
+  color: #777;
+  height: 125px;
+  line-height: 20px;
+}
+
+#features > nav a:hover {
+  color: white;
+}
+
+#features > nav a img {
+  height: 49px;
+}
+
+#features > nav a h2 {
+  margin: 10px 0 0;
+  font-size: 1em;
+}
+
+.columns {
+  display: flex;
+}
+
+.column {
+  display: block;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.size-80 {
+  width: 80%;
+}
+
+#features > nav a.is-selected {
+  border-bottom: 5px solid #e50914;
+  color: white;
+}
+
+#features > article > section {
+  display: none;
+  padding: 40px 0;
+}
+
+#features > article > section.is-selected {
+  display: block;
+}
+
+.btn-large {
+  padding: 18px 20px;
+}
+
+#features > article {
+  margin-bottom: 120px;
+}
+
+#features > article h2 {
+  font-size: 32px;
+  font-weight: 400;
+  margin: 60px 0 20px;
+}
+
+#features img {
+  max-width: 100%;
+}
+
+.size-70 {
+  width: 70%;
+}
+
+#features #watchanywhere h2 {
+  font-size: 19px;
+  padding-right: 1em;
+  margin: 0 0 20px;
+}
+
+#features #watchanywhere > div:first-child {
+  margin-bottom: 60px;
+}
+
+#features #watchanywhere p {
+  color: #999;
+}
+
+.column.is-narrow {
+  flex: none;
+}
+
+.size-90 {
+  width: 90%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#features #pickprice h2 {
+  font-size: 22px;
+  display: inline;
+  margin: 0 40px 0 0;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+}
+
+table,
+thead,
+tbody {
+  border-collapse: collapse;
+}
+
+thead {
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+thead th {
+  padding: 10px;
+}
+
+tbody {
+  color: #999;
+}
+
+tbody td {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+tbody tr:nth-child(2n) {
+  background-color: #222;
+}
+
+tbody td:first-child {
+  text-align: left;
+}
